@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-smartcontract-lottery-fcc",
+  "name": "nextjs-lottery",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,12 +10,11 @@
   },
   "dependencies": {
     "moralis": "^1.8.0",
-    "moralis-v1": "^1.11.0",
     "next": "12.1.5",
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "react-moralis": "^1.4.0",
-    "web3uikit": "^1.0.4"
+    "web3uikit": "^0.1.159"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.4",
@@ -23,5 +22,10 @@
     "eslint-config-next": "12.1.5",
     "postcss": "^8.4.12",
     "tailwindcss": "^3.0.24"
-  }
+  },
+  "description": "Front End to Lottery Smart Contract",
+  "main": "index.js",
+  "repository": "https://github.com/bchaindeveloper/nextjs-lottery.git",
+  "author": "bchaindeveloper <bcdev3@protonmail.com>",
+  "license": "MIT"
 }

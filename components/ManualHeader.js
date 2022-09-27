@@ -1,7 +1,9 @@
+// This file is to show what making a connect button looks like behind the scenes!
 
 import { useEffect } from "react"
 import { useMoralis } from "react-moralis"
 
+// Top navbar
 export default function ManualHeader() {
     const { enableWeb3, isWeb3Enabled, isWeb3EnableLoading, account, Moralis, deactivateWeb3 } =
         useMoralis()
@@ -13,9 +15,12 @@ export default function ManualHeader() {
             window.localStorage.getItem("connected")
         ) {
             enableWeb3()
+            // enableWeb3({provider: window.localStorage.getItem("connected")}) // add walletconnect
         }
     }, [isWeb3Enabled])
-
+    // no array, run on every render 
+    // empty array, run once
+    // dependency array, run when the stuff in it changesan
 
     useEffect(() => {
         Moralis.onAccountChanged((account) => {
@@ -40,10 +45,13 @@ export default function ManualHeader() {
                     ) : (
                         <button
                             onClick={async () => {
+                                // await walletModal.connect()
                                 const ret = await enableWeb3()
                                 if (typeof ret !== "undefined") {
+                                    // depends on what button they picked
                                     if (typeof window !== "undefined") {
                                         window.localStorage.setItem("connected", "injected")
+                                        // window.localStorage.setItem("connected", "walletconnect")
                                     }
                                 }
                             }}
