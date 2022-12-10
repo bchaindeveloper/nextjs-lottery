@@ -1,6 +1,8 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Middle from '../components/Middle';
 import LotteryEntrance from "../components/LotteryEntrance";
 import { useMoralis } from "react-moralis";
 
@@ -30,6 +32,13 @@ export default function Home() {
       ) : (
         <div>Please connect to a Wallet</div>
       )}
+      <div>
+        <Middle />
+      </div>
+      <br />
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 }
