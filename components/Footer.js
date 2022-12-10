@@ -1,10 +1,19 @@
 
 export default function Footer() {
     return (
-        <nav className="p-5 border-b-2 flex flex-row">
-            <h1 className="py-4 px-4 font-bold text-3xl">BChainDev Production</h1>
-            <div className="ml-auto py-2 px-4">
-            </div>
-        </nav>
+    
+    <div className="fixed bottom-0 p-5 border-b-3 flex "
+    style={{
+        backgroundColor: 'black',
+        width: '100%',
+        height: '100px'
+      }}>
+        <a href="https://bchaindev.com/" alt="BChainDev" target="_blank">
+            <h1 className="py-4 px-4 font-bold text-3xl text-white">BChainDev Production</h1>
+        </a>
+            <p className="pr-4 bottom-2 font-normal text-[14px] text-white fixed right-0">
+            Copyright © 2022 - 2023 BChainDev. All rights reserved.
+          </p>
+    </div>
     )
 }
