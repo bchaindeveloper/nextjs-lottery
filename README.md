@@ -1,7 +1,16 @@
 # NextJS Smartcontract Lottery/Raffle
 
-This nextjs-lottery is the front end application for my smartcontract-lottery repo. Here you can connect to your wallet and enter the Ether raffle by putting up 0.1 Ether. The raffle uses randomness from ChainLink to select a winner and the winner takes the pot.  
-*https://lingering-meadow-8417.on.fleek.co/
+An Ethereum Raffle
+
+This nextjs-lottery is the front end application for my smartcontract-lottery repo. Here you can connect to your wallet and enter the Ether raffle by putting up 0.1 Ether. The raffle uses randomness from ChainLink VRF to select a winner and the winner takes the pot.  
+*https://web3sire.com/
+
+
+## Motivation
+Demonstrate my ability to make a Full-Stack Web3 application
+
+## Screenshots
+
 
 ## Built with:
 NextJS
@@ -13,7 +22,25 @@ Ethers
 Hardhat
 IPFS
 
-## This project is part of Patrick Collins:
+## Installation
+CD nextjs-lottery
+npm run dev
+
+
+## How to use?
+-Connnect to your wallet of choice
+-Enter Raffle
+-Confirm in wallet
+
+## Contribute
+Feel free to a fork the repo or notify me of any issues that are present
+
+## Credit:
+
+Part of Patrick Collins, FreeCodeCamp Course:
 Learn Blockchain, Solidity, and Full Stack Web3 Development with JavaScript – 32-Hour Course
-* Lesson 10: NextJS Smart Contract Lottery (Full Stack / Front End)
+Lesson 9: Hardhat Smart Contract Lottery
 https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=49262s
+
+License
+MIT © BChainDev
