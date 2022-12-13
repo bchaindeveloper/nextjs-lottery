@@ -13,6 +13,10 @@ export default function Header() {
             <div className="ml-auto py-3 px-4">
                 <ConnectButton moralisAuth={false}/>
             </div>
+            <hr         style={{
+            backgroundColor: 'black',
+            height: '4px',
+          }}></hr>
         </nav>
     )
 }

@@ -30,7 +30,7 @@ export default function Home() {
           )}
         </div>
       ) : (
-        <div className="p-10 font-semibold underline">Connect Wallet To Enter</div>
+        <div className="p-9 font-semibold underline">^Connect Wallet To Enter^</div>
       )}
       <div>
         <Middle />
