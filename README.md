@@ -11,7 +11,7 @@ Demonstrate my ability to make a Full-Stack Web3 application
 
 ## Screenshots
 
-![Screenshot](Screenshot.png)
+![Screenshot](public/Screenshot.png
 
 ## Built with:
 NextJS
