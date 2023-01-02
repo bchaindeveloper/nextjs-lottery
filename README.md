@@ -11,6 +11,7 @@ Demonstrate my ability to make a Full-Stack Web3 application
 
 ## Screenshots
 
+![Screenshot](Screenshot.png)
 
 ## Built with:
 NextJS
@@ -38,9 +39,7 @@ Feel free to a fork the repo or notify me of any issues that are present
 ## Credit:
 
 Part of Patrick Collins, FreeCodeCamp Course:
-Learn Blockchain, Solidity, and Full Stack Web3 Development with JavaScript – 32-Hour Course
-Lesson 9: Hardhat Smart Contract Lottery
-https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=49262s
+Lesson 9: Hardhat Smart Contract Lottery - https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=49262s
 
 License
 MIT © BChainDev
