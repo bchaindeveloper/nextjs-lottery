@@ -6,12 +6,12 @@ This nextjs-lottery is the front end application for my smartcontract-lottery re
 *https://web3sire.com/
 
 
-## Motivation
+## Motivation:
 Demonstrate my ability to make a Full-Stack Web3 application
 
-## Screenshots
+## Screenshot:
 
-![Screenshot](public/Screenshot.png
+![Screenshot](public/Screenshot.png)
 
 ## Built with:
 NextJS
@@ -33,7 +33,7 @@ npm run dev
 -Enter Raffle
 -Confirm in wallet
 
-## Contribute
+## Contribute:
 Feel free to a fork the repo or notify me of any issues that are present
 
 ## Credit:
@@ -41,5 +41,6 @@ Feel free to a fork the repo or notify me of any issues that are present
 Part of Patrick Collins, FreeCodeCamp Course:
 Lesson 9: Hardhat Smart Contract Lottery - https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=49262s
 
-License
+License:
+
 MIT © BChainDev
