@@ -3,8 +3,6 @@
 An Ethereum Raffle
 
 This nextjs-lottery is the front end application for my smartcontract-lottery repo. Here you can connect to your wallet and enter the Ether raffle by putting up 0.1 Ether. The raffle uses randomness from ChainLink VRF to select a winner and the winner takes the pot.  
-*https://web3sire.com/
-
 
 ## Motivation:
 Demonstrate my ability to make a Full-Stack Web3 application
